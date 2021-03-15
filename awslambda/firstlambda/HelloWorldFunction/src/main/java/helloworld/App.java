@@ -15,7 +15,7 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
  * Handler for requests to Lambda function.
  */
 public class App {
-	public String hello() {
-		return "Lambda Functions are super easy and wassomme!";
+	public String hello(String name) {
+		return "Lambda Functions are super easy and wassomme! " + name;
 	}
 }
