@@ -1,0 +1,325 @@
+!SESSION 2021-03-15 13:25:47.758 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-03-15 13:26:44.633
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-15 13:26:44.633
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29682244,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3368cf02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-15 13:26:56.511
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mr-Ro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-03-15 13:39:04.174 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-03-15 13:39:15.987
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-15 13:39:15.987
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@193c810,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ef7e4c7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-15 13:39:22.219
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mr-Ro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2021-03-15 13:40:40.974
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2021-03-15 13:40:40.975
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE Software being installed: Eclipse Groovy Development Tools 3.5.1.v201909291550-e48 (org.codehaus.groovy.eclipse.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE Software currently installed: Eclipse Java Development Tools 3.18.600.v20201202-1800 (org.eclipse.jdt.feature.group 3.18.600.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE Software currently installed: Eclipse Plug-in Development Environment 3.14.600.v20201202-1800 (org.eclipse.pde.feature.group 3.14.600.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.975
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE Java Development Tools Core 3.24.0.v20201123-0742 (org.eclipse.jdt.core 3.24.0.v20201123-0742)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE Java Development Tools Core 3.13.100.v20171123-1049 (org.eclipse.jdt.core 3.13.100.v20171123-1049)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE Java Development Tools Core 3.14.0.v201909291550-e48 (org.eclipse.jdt.core 3.14.0.v201909291550-e48)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.975
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE From: Groovy-Eclipse Compilerless feature 3.5.1.v201909291550-e48 (org.codehaus.groovy.compilerless.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.headless.feature.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.975
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE From: Eclipse Groovy Development Tools 3.5.1.v201909291550-e48 (org.codehaus.groovy.eclipse.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.compilerless.feature.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.975
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE From: Groovy-Eclipse Headless feature 3.5.1.v201909291550-e48 (org.codehaus.groovy.headless.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.jdt.patch.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.975
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE From: API Tools 1.2.100.v20201112-0408 (org.eclipse.pde.api.tools 1.2.100.v20201112-0408)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE To: osgi.bundle; org.eclipse.jdt.core [3.22.0,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.975
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE From: Eclipse Plug-in Development Environment 3.14.600.v20201202-1800 (org.eclipse.pde.feature.group 3.14.600.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.pde.api.tools [1.2.100.v20201112-0408,1.2.100.v20201112-0408]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.975
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE From Patch: org.codehaus.groovy.jdt.patch.feature.group 3.5.1.v201909291550-e48 Eclipse Java Development Tools 3.18.600.v20201202-1800 (org.eclipse.jdt.feature.group 3.18.600.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.975
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jdt.core [3.14.0.v201909291550-e48,3.14.0.v201909291550-e48]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2021-03-15 13:40:40.990
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2021-03-15 13:40:40.990
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE Software being installed: Eclipse Groovy Development Tools 3.5.1.v201909291550-e48 (org.codehaus.groovy.eclipse.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE Software currently installed: Eclipse Java Development Tools 3.18.600.v20201202-1800 (org.eclipse.jdt.feature.group 3.18.600.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE Software currently installed: Eclipse Plug-in Development Environment 3.14.600.v20201202-1800 (org.eclipse.pde.feature.group 3.14.600.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.991
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE Java Development Tools Core 3.24.0.v20201123-0742 (org.eclipse.jdt.core 3.24.0.v20201123-0742)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE Java Development Tools Core 3.13.100.v20171123-1049 (org.eclipse.jdt.core 3.13.100.v20171123-1049)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE Java Development Tools Core 3.14.0.v201909291550-e48 (org.eclipse.jdt.core 3.14.0.v201909291550-e48)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.991
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE From: Groovy-Eclipse Compilerless feature 3.5.1.v201909291550-e48 (org.codehaus.groovy.compilerless.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.headless.feature.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.991
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE From: Eclipse Groovy Development Tools 3.5.1.v201909291550-e48 (org.codehaus.groovy.eclipse.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.compilerless.feature.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.991
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE From: Groovy-Eclipse Headless feature 3.5.1.v201909291550-e48 (org.codehaus.groovy.headless.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.jdt.patch.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.991
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE From: API Tools 1.2.100.v20201112-0408 (org.eclipse.pde.api.tools 1.2.100.v20201112-0408)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE To: osgi.bundle; org.eclipse.jdt.core [3.22.0,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.991
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE From: Eclipse Plug-in Development Environment 3.14.600.v20201202-1800 (org.eclipse.pde.feature.group 3.14.600.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.pde.api.tools [1.2.100.v20201112-0408,1.2.100.v20201112-0408]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:40.991
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE From Patch: org.codehaus.groovy.jdt.patch.feature.group 3.5.1.v201909291550-e48 Eclipse Java Development Tools 3.18.600.v20201202-1800 (org.eclipse.jdt.feature.group 3.18.600.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:40.991
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jdt.core [3.14.0.v201909291550-e48,3.14.0.v201909291550-e48]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2021-03-15 13:40:41.005
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2021-03-15 13:40:41.005
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE Software being installed: Eclipse Groovy Development Tools 3.5.1.v201909291550-e48 (org.codehaus.groovy.eclipse.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE Software currently installed: Eclipse Java Development Tools 3.18.600.v20201202-1800 (org.eclipse.jdt.feature.group 3.18.600.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE Software currently installed: Eclipse Plug-in Development Environment 3.14.600.v20201202-1800 (org.eclipse.pde.feature.group 3.14.600.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.005
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE Java Development Tools Core 3.24.0.v20201123-0742 (org.eclipse.jdt.core 3.24.0.v20201123-0742)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE Java Development Tools Core 3.13.100.v20171123-1049 (org.eclipse.jdt.core 3.13.100.v20171123-1049)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE Java Development Tools Core 3.14.0.v201909291550-e48 (org.eclipse.jdt.core 3.14.0.v201909291550-e48)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.005
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE From: Groovy-Eclipse Compilerless feature 3.5.1.v201909291550-e48 (org.codehaus.groovy.compilerless.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.headless.feature.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.005
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE From: Eclipse Groovy Development Tools 3.5.1.v201909291550-e48 (org.codehaus.groovy.eclipse.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.compilerless.feature.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.005
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE From: Groovy-Eclipse Headless feature 3.5.1.v201909291550-e48 (org.codehaus.groovy.headless.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.jdt.patch.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.005
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE From: API Tools 1.2.100.v20201112-0408 (org.eclipse.pde.api.tools 1.2.100.v20201112-0408)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE To: osgi.bundle; org.eclipse.jdt.core [3.22.0,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.005
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE From: Eclipse Plug-in Development Environment 3.14.600.v20201202-1800 (org.eclipse.pde.feature.group 3.14.600.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.pde.api.tools [1.2.100.v20201112-0408,1.2.100.v20201112-0408]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.005
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE From Patch: org.codehaus.groovy.jdt.patch.feature.group 3.5.1.v201909291550-e48 Eclipse Java Development Tools 3.18.600.v20201202-1800 (org.eclipse.jdt.feature.group 3.18.600.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.005
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jdt.core [3.14.0.v201909291550-e48,3.14.0.v201909291550-e48]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2021-03-15 13:40:41.011
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2021-03-15 13:40:41.011
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE Software being installed: Eclipse Groovy Development Tools 3.5.1.v201909291550-e48 (org.codehaus.groovy.eclipse.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE Software currently installed: Eclipse Java Development Tools 3.18.600.v20201202-1800 (org.eclipse.jdt.feature.group 3.18.600.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE Software currently installed: Eclipse Plug-in Development Environment 3.14.600.v20201202-1800 (org.eclipse.pde.feature.group 3.14.600.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.011
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE Java Development Tools Core 3.24.0.v20201123-0742 (org.eclipse.jdt.core 3.24.0.v20201123-0742)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE Java Development Tools Core 3.13.100.v20171123-1049 (org.eclipse.jdt.core 3.13.100.v20171123-1049)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE Java Development Tools Core 3.14.0.v201909291550-e48 (org.eclipse.jdt.core 3.14.0.v201909291550-e48)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.011
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE From: Groovy-Eclipse Compilerless feature 3.5.1.v201909291550-e48 (org.codehaus.groovy.compilerless.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.headless.feature.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.011
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE From: Eclipse Groovy Development Tools 3.5.1.v201909291550-e48 (org.codehaus.groovy.eclipse.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.compilerless.feature.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.011
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE From: Groovy-Eclipse Headless feature 3.5.1.v201909291550-e48 (org.codehaus.groovy.headless.feature.feature.group 3.5.1.v201909291550-e48)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.codehaus.groovy.jdt.patch.feature.group [3.5.1.v201909291550-e48,3.5.1.v201909291550-e48]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.011
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE From: API Tools 1.2.100.v20201112-0408 (org.eclipse.pde.api.tools 1.2.100.v20201112-0408)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE To: osgi.bundle; org.eclipse.jdt.core [3.22.0,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.011
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE From: Eclipse Plug-in Development Environment 3.14.600.v20201202-1800 (org.eclipse.pde.feature.group 3.14.600.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.011
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.pde.api.tools [1.2.100.v20201112-0408,1.2.100.v20201112-0408]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-03-15 13:40:41.012
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.012
+!MESSAGE From Patch: org.codehaus.groovy.jdt.patch.feature.group 3.5.1.v201909291550-e48 Eclipse Java Development Tools 3.18.600.v20201202-1800 (org.eclipse.jdt.feature.group 3.18.600.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-03-15 13:40:41.012
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jdt.core [3.14.0.v201909291550-e48,3.14.0.v201909291550-e48]
+!SESSION 2021-03-15 15:28:48.314 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-03-15 15:28:57.308
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-15 15:28:57.308
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@377d55,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@193c810,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-15 15:29:04.714
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mr-Ro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
